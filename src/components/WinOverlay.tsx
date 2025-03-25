@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { playButton } from "../lib/sounds"
-import { Repeat, Home, Sparkles } from "lucide-react"
+import { Repeat, Home } from "lucide-react"
 
 interface WinOverlayProps {
   onReset: () => void
